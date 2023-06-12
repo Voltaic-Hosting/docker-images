@@ -1,15 +1,15 @@
 FROM bitnami/java:latest
 
 # Set default values for environment variables
-ENV SERVER_NAME="A Dank Minecraft Server"
+ENV SERVER_NAME="A Minecraft Server"
 ENV GAMEMODE="survival"
 ENV DIFFICULTY="normal"
 ENV LEVEL_TYPE="default"
-ENV MOTD="A Dank Minecraft Server"
+ENV MOTD="A Minecraft Server"
 ENV PVP="true"
 ENV MAX_PLAYERS="20"
 ENV VIEW_DISTANCE="13"
-ENV ONLINE_MODE="false"
+ENV ONLINE_MODE="true"
 ENV WHITELIST="false"
 
 # Copy Minecraft Server folder
