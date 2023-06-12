@@ -12,9 +12,8 @@ ENV VIEW_DISTANCE="13"
 ENV ONLINE_MODE="false"
 ENV WHITELIST="false"
 
-# Copy Minecraft server jar
-COPY ./server.jar /mcserver/server.jar
-COPY ./whitelist.json /mcserver/whitelist.json
+# Copy Minecraft Server folder
+COPY ./src /mcserver
 
 # Set working directory to Minecraft directory
 WORKDIR /mcserver
